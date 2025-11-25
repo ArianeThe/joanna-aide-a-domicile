@@ -1,32 +1,121 @@
-<<<<<<< HEAD
-# React + Vite
+# Joanna Dupré - Aide à Domicile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site vitrine professionnel pour Joanna Dupré, aide à domicile proposant des services d'entretien ménager et d'aide à la personne.
 
-Currently, two official plugins are available:
+## À propos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce site présente les services proposés par Joanna Dupré :
+- **Entretien** : Nettoyage complet du logement, rangement, entretien régulier ou ponctuel
+- **Aide à la personne** : Accompagnement dans les gestes du quotidien, courses, présence rassurante
+- **Bonne humeur** : Un service humain et sincère avec discussions et moments de partage
 
-## React Compiler
+## Technologies utilisées
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - Bibliothèque JavaScript pour l'interface utilisateur
+- **Vite 7** - Build tool moderne et rapide
+- **CSS Vanilla** - Styles personnalisés avec design responsive
+- **ESLint** - Linting et qualité du code
 
-## Expanding the ESLint configuration
+## Structure du projet
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# joanna-aide-a-domicile
-Site vitrine pour une aide à domicile
+```
+src/
+├── assets/
+│   ├── icons/              # Icônes des services
+│   ├── images/             # Images principales
+│   └── react.svg
+├── components/             # Composants React
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── SectionQui.jsx
+│   ├── SectionServices.jsx
+│   ├── SectionTarifs.jsx
+│   └── SectionContact.jsx
+├── styles/
+│   └── main.css           # Styles principaux avec media queries
+├── App.jsx                # Composant principal
+├── index.css              # Styles globaux
+└── main.jsx               # Point d'entrée
+```
 
-# Stack
-React Vanilla JS
-CSS
-Copilot
+## Installation et développement
 
-# Hébergement envisagé
-Netlify
+### Prérequis
+- Node.js (version 16 ou supérieure)
+- npm ou yarn
 
-# MAJ prévu
-via Github directement
->>>>>>> 19feba1c8511d56fa05a2ef51ee7e810354cf963
+### Installation
+
+```bash
+# Cloner le repository
+git clone https://github.com/ArianeThe/joanna-aide-a-domicile.git
+
+# Installer les dépendances
+npm install
+```
+
+### Commandes disponibles
+
+```bash
+# Lancer le serveur de développement (port 3000)
+npm run dev
+
+# Build de production
+npm run build
+
+# Prévisualiser le build de production
+npm run preview
+
+# Linter le code
+npm run lint
+```
+
+## Responsive Design
+
+Le site est entièrement responsive avec des breakpoints optimisés :
+- **Desktop** : ≥ 1025px - Layout horizontal avec header centré
+- **Tablette** : 769px - 1024px - Adaptation progressive
+- **Mobile** : ≤ 768px - Layout vertical empilé
+- **Petits mobiles** : ≤ 480px - Optimisation pour très petits écrans
+
+## Caractéristiques
+
+- ✅ Design moderne et épuré
+- ✅ Navigation fluide par sections
+- ✅ Optimisation des images via Vite
+- ✅ Accessibilité et SEO-friendly
+- ✅ Performance optimale
+- ✅ Code maintenable et bien organisé
+
+## Déploiement
+
+Le site est prévu pour être déployé sur **Netlify** avec mise à jour automatique via GitHub.
+
+### Déploiement sur Netlify
+
+1. Connecter le repository GitHub à Netlify
+2. Configuration de build :
+   - **Build command** : `npm run build`
+   - **Publish directory** : `dist`
+3. Les mises à jour sont automatiques à chaque push sur `main`
+
+## Mises à jour récentes
+
+- Amélioration de l'architecture du projet
+- Organisation des assets en sous-dossiers (icons/, images/)
+- Optimisation de la responsivité (header centré, media queries améliorées)
+- Nettoyage du code (suppression des fichiers CSS inutilisés)
+- Simplification des styles globaux
+
+## Auteur
+
+**Joanna Dupré**  
+Aide à domicile professionnelle
+
+## Licence
+
+Ce projet est privé et destiné à un usage personnel.
+
+---
+
+Développé avec l'assistance d'Antigravity
