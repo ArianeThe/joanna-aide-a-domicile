@@ -109,8 +109,8 @@ Le site est prévu pour être déployé sur **Netlify** avec mise à jour automa
 
 ## Auteur
 
-**Joanna Dupré**  
-Aide à domicile professionnelle
+**CLICK ' N ACCESS**  
+Ariane THEBAULT / Conceptrice Développeuse d'Applications
 
 ## Licence
 
@@ -118,4 +118,4 @@ Ce projet est privé et destiné à un usage personnel.
 
 ---
 
-Développé avec l'assistance d'Antigravity
+Refactorisé avec l'assistance d'Antigravity
