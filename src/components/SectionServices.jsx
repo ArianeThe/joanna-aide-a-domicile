@@ -1,6 +1,6 @@
-import entretien from '../assets/entretien.png';
-import aide from '../assets/aide.png';
-import bonneHumeur from '../assets/bonne-humeur.png';
+import entretien from '../assets/icons/entretien.png';
+import aide from '../assets/icons/aide.png';
+import bonneHumeur from '../assets/icons/bonne-humeur.png';
 
 function SectionServices() {
   return (
